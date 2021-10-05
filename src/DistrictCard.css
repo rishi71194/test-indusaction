@@ -1,0 +1,31 @@
+.districtcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid rgba(76,174,101,1);
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+}
+
+.district__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.district__id{
+    display: flex;
+    align-items: center;
+    border: 2px solid green;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size:x-large;
+    color: green;
+}
+
+.district__id>*{
+    margin: 0 auto;
+}

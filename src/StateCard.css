@@ -1,0 +1,38 @@
+.statecard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid rgba(76,174,101,1);
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+}
+
+.state__id{
+    display: flex;
+    align-items: center;
+    border: 2px solid green;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size:x-large;
+    color: green;
+}
+
+.state__id>*{
+    margin: 0 auto;
+}
+
+.state__name{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.state__arr{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}

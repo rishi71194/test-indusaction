@@ -1,0 +1,44 @@
+.district{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 60px;
+}
+
+.district__add{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid rgba(76,174,101,1);
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+}
+
+.district__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.district__form>button {
+    background-color: rgba(76,174,101,1);
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.district__form>input, select {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid black;
+}
+
+.district__form>*{
+    margin: 10px;
+}
