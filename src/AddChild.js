@@ -19,6 +19,10 @@ function AddChild() {
 
     const [child, setChild] = useState([]);
 
+    const addNewChild = () => {
+        
+    };
+
     const handleChangeSex = (event) => {
       setSex(event.target.value);
     };

@@ -29,3 +29,8 @@
 .district__id>*{
     margin: 0 auto;
 }
+
+.district__arr{
+    color: green;
+    transform: rotate(180deg);
+}

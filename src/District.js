@@ -30,10 +30,11 @@ function District() {
                    <p>+</p> 
                 </div>
                 <div className="district__form">
-                    <select name="states" id="states" onSelect={(e)=>setState(e.target.value)}> 
-                    {states.map(item=>(
-                        <option value={item.id}>{item.name}</option>              
-                    ))}
+                    <select name="states" id="states" value={state} onChange={(e)=>setState(e.target.value)}> 
+                        <option selected value='default'>Select State Name</option> 
+                        {states.map(item=>(
+                            <option value={item.state_name}>{item.state_name}</option>              
+                        ))}
                     </select>
                     <input type='text' onChange={(event)=>setDistrict(event.target.value)} placeholder="Enter District Name" />
                     <button type="submit" onClick={addDistrict}>ADD DISTRICT</button>

@@ -32,7 +32,6 @@
 }
 
 .state__arr{
-    font-size: 20px;
-    font-weight: bold;
     color: green;
+    transform: rotate(180deg);
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './StateCard.css';
-
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 function StateCard({id, state}) {
     return (
@@ -12,7 +12,7 @@ function StateCard({id, state}) {
                 {state}
             </div>
             <div className="state__arr">
-                -
+                <ArrowBackIcon/>
             </div>
         </div>
     )

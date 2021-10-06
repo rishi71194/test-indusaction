@@ -1,5 +1,6 @@
 import React from 'react';
 import './DistrictCard.css';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 function DistrictCard({id, name, state}) {
     return (
@@ -11,8 +12,8 @@ function DistrictCard({id, name, state}) {
                 <p>{name}</p>
                 <p>{state}</p>
             </div>
-            <div className="state__arr">
-                -
+            <div className="district__arr">
+                <ArrowBackIcon/>
             </div>
         </div>
     )
