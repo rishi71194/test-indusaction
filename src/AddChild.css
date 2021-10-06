@@ -1,0 +1,55 @@
+.addchild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+    left: 40%;
+    top: 20%;
+    background-color: white;
+    height: 650px;
+    width: 350px;
+}
+
+.addchild__form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.addchild__form > *{
+    width: 300px;
+    margin: 5px !important;
+}
+
+.addchild__header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: green;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.addchild__header>h2{
+    position:absolute;
+    right: 30%;
+}
+
+#back-btn{
+    position: relative;
+    left:10%;
+}
+
+
+
+#upload{
+    border-color: rgba(76,174,101,1);
+    color: rgba(76,174,101,1);
+    border-radius: 8px;
+}
+
+#submit{
+    background-color: rgba(76,174,101,1);
+    border-color: rgba(76,174,101,1);
+    border-radius: 8px;
+}
