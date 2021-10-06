@@ -19,7 +19,7 @@ function Header() {
                 <Link to="/district">
                     <div className='header__option'>District</div>
                 </Link>
-                <Link to="/">
+                <Link to="/child">
                     <div className='header__option'>Child</div>
                 </Link>
                 
