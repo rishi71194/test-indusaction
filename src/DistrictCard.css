@@ -12,6 +12,7 @@
 .district__info {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .district__id{
@@ -24,6 +25,7 @@
     cursor: pointer;
     font-size:x-large;
     color: green;
+    margin-bottom: 30px;
 }
 
 .district__id>*{
@@ -33,4 +35,13 @@
 .district__arr{
     color: green;
     transform: rotate(180deg);
+    margin-bottom: 30px;
+}
+
+.district__info>p{
+    color: green;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
 }

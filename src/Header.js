@@ -6,9 +6,11 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <div className='header'>
+            <Link to='/' style={{textDecoration: 'none'}}>
             <div className="header__logo">
                 <p>LOGO</p>
             </div>
+            </Link>
             <div className = 'header__nav'>
                 <Link to="/" style={{ color: 'black', textDecoration: 'none' }}>
                     <div className='header__option'>Home</div>

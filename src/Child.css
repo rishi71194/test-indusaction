@@ -3,3 +3,26 @@
     height: 90vh;
     background-color: rgba(248,248,248,1);
 }
+
+.child__table{
+    width: 90%;
+    position: fixed;
+    top: 25%;
+    left: 5%;
+}
+
+#add-child-btn{
+    position: fixed;
+    right: 5%;
+    top: 18%;
+    background-color: rgba(76,174,101,1);
+    border-color: rgba(76,174,101,1);
+    border-radius: 5px;
+}
+
+#view-child-btn{
+    border-color: rgba(76,174,101,1);
+    color: rgba(76,174,101,1);
+    border-radius: 5px;
+    height: 30px;
+}

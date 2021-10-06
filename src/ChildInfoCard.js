@@ -1,10 +1,13 @@
 import React from 'react';
 import './ChildInfoCard.css'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { Link } from 'react-router-dom';
 
 function ChildInfoCard({id, name, sex, dob, fname, mname, state, district, picurl}) {
     return (
         <div className="childinfocard">
-            
+            <div className='childinfocard__container'>
+            <Link to='/child'><ArrowBackIcon id='back-btn'/></Link>
                 <div className='childinfocard__pic'>
                     <img src={picurl} alt=''/>
                 </div>
@@ -38,7 +41,7 @@ function ChildInfoCard({id, name, sex, dob, fname, mname, state, district, picur
                         <span>{district}</span>
                     </div>
                 </div>
-            
+            </div>
         </div>
     )
 }

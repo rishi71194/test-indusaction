@@ -20,7 +20,6 @@ function District() {
             },
         });
         setCount(count+1);
-        console.log(districts);
     };
 
     return (

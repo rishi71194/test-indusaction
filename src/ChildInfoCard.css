@@ -1,4 +1,10 @@
 .childinfocard{
+    height: 90vh;
+    background-color: rgba(248,248,248,1);
+}
+
+
+.childinfocard__container{
     position: fixed;
     top: 20%;
     left: 7%;
@@ -32,4 +38,10 @@
     margin-left: 80px;
     height: 100px;
     width: 100px;
+}
+
+#back-btn{
+    color: green;
+    position:relative;
+    left:3%;
 }
