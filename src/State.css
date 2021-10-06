@@ -51,6 +51,7 @@
     color: white;
     border-color: transparent;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .state__form>input {

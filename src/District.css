@@ -30,6 +30,7 @@
     color: white;
     border-color: transparent;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .district__form>input, select {

@@ -14,12 +14,14 @@ function State() {
         dispatch({
             type: "ADD_STATE",
             payload: {
-                id: count,
-                name: state,
+                _id: count+1,
+                state_id: states.length+1,
+                state_name: state,
             },
         });
         setCount(count+1);
     };
+
 
     return (
         <div className='state'>
@@ -34,8 +36,8 @@ function State() {
             </div>
             {states.map(item=>(
                         <StateCard
-                            id = {item.id}
-                            state={item.name}
+                            id = {item.state_id}
+                            state={item.state_name}
                         />               
             ))}
         </div>
