@@ -10,21 +10,21 @@ function Header() {
                 <p>LOGO</p>
             </div>
             <div className = 'header__nav'>
-                <Link to="/">
+                <Link to="/" style={{ color: 'black', textDecoration: 'none' }}>
                     <div className='header__option'>Home</div>
                 </Link>
-                <Link to="/state">
+                <Link to="/state" style={{ color: 'black', textDecoration: 'none' }}>
                     <div className='header__option'>State</div>
                 </Link>
-                <Link to="/district">
+                <Link to="/district" style={{ color: 'black', textDecoration: 'none' }}>
                     <div className='header__option'>District</div>
                 </Link>
-                <Link to="/child">
+                <Link to="/child" style={{ color: 'black', textDecoration: 'none' }}>
                     <div className='header__option'>Child</div>
                 </Link>
                 
             </div>
-            <Link to="/login">
+            <Link to="/login" style={{ color: 'black', textDecoration: 'none' }}>
                 <div className='header__logout'>
                     <img src={Logout_LOGO} alt='logout_img'></img>
                     <p>Logout</p>
